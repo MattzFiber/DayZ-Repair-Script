@@ -1,0 +1,29 @@
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={4236.9863,338.99933,10923.414};
+			azimut=330;
+			id=1;
+			side="EMPTY";
+			vehicle="Land_repair_center";
+			leader=1;
+			skill=0.60000002;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={4238.939,339,10922.089};
+			a=10;
+			b=10;
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+		};
+	};
