@@ -1,8 +1,8 @@
 private ["_object","_type","_OldFuel"];
-_object engineOn false;
 _object = _this select 0;
 _type = typeof _object;
 _OldFuel = fuel _object;
+_object engineOn false;
 if (_object isKindOf "ParachuteBase") exitWith {};
 if (!alive _object) exitWith {};
 _object vehicleChat format ["Repairing %1... Please stand by...", _type];
